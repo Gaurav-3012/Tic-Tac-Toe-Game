@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #E8CBC0;  
+    background: -webkit-linear-gradient(to right, #636FA4, #E8CBC0); 
+    background: linear-gradient(to right, #636FA4, #E8CBC0); 
+    
+text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+  height: 18vmin ;
+  width: 18vmin;
+  border-radius:1rem ;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  font-size: 10vmin;
+  /* color: darkgoldenrod; */
+  -webkit-border-radius:1rem ;
+  -moz-border-radius:1rem ;
+  -ms-border-radius:1rem ;
+  -o-border-radius:1rem ;
+  background-color: #52574e;
+}
+
+#reset-btn{
+    padding: 0.8rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    border: none;
+}
+
+#new-btn{
+    padding: 0.8rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    border: none;
+
+}
+
+#msg{
+    color: #fff;
+    font-size :12vmin;
+    font-weight: 900;
+   
+}
+.msgWinner{
+    height: 40vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.hide{
+    display: none;
+}
+
+
+
